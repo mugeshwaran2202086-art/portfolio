@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+   
+    <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="container nav">
+            <h2 class="logo">Eshwarr</h2>
+
+            <nav id="navMenu"  class="nav-links"></nav>
+                <a href="about">About</a>
+                <a href="skills">Skills</a>
+                <a href="projects">Projects</a>
+                <a href="contact">Contact</a>
+              </nav>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+           </div>
+       </header>
+
+    
+    <section id="about" class="section about-section">
+        <div class="container about">
+            <img src="c:\Users\Eshwar\Downloads\download.jpg" alt="Profile Photo" class="profile-img">
+
+            <div class="about-text">
+                <h1>Hello, I'm <span class="highlight">eshwarapriyan</span></h1>
+                <p class="intro">
+                    I’m a Frontend Developer who loves building clean, responsive 
+                    and user-friendly websites using HTML, CSS and JavaScript.
+                </p>
+                <p>
+                    I enjoy learning new technologies and improving my skills and i have more 
+                    projects in frontend.This portfolio showcases the work I’ve done so far.
+                 </p>
+             </div>
+             </div>
+       </section>
+
+               ##skills
+          <section id="skills" class="section">
+           <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">java</div>
+                <div class="skill-card">React (Learning)</div>
+                <div class="skill-card">python</div>
+            </div>
+        </div>
+         </section>
+
+       
+         <section id="projects" class="section">
+         <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="c:\Users\Eshwar\Downloads\calcis.png" alt="Calculator Project">
+                    <h3>Calculator</h3>
+                    <p>A simple calculator app created with HTML, CSS and JavaScript.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="c:\Users\Eshwar\Downloads\istockphoto-17.jpg" alt="To-Do App">
+                    <h3>tic tac toe</h3>
+                    <p>This is intresting game i make project in java.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="c:\Users\Eshwar\Downloads\images (1).png" alt="Digital Clock">
+                    <h3>Bus reservation System</h3>
+                    <p>A Bus reservation Sytem i make project in java</p>
+                </div>
+
+            </div>
+        </div>
+            </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+<form class="contact-form" 
+      action="https://docs.google.com/forms/d/e/1FAIpQLSe3xhTZx1xD3IDLsXOibURoBC-8Aysq1u36WqJ7w3jumaacTA/formResponse" 
+      method="POST" 
+      target="_blank">
+
+    <input type="text" 
+           name="entry.425680297" 
+           id="name" 
+           placeholder="Your Name" 
+           required>
+
+    <input type="email" 
+           name="entry.621509798" 
+           id="email" 
+           placeholder="Your Email" 
+           required>
+
+    <textarea 
+           name="entry.1683267532" 
+           id="message" 
+           rows="5" 
+           placeholder="Your Message" 
+           required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
+
+            <p id="formStatus" class="form-status"></p>
+        </div>
+    </section>
+
+    <
+    <footer class="footer">
+        <p>© 2025 Your Name | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
